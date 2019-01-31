@@ -1,9 +1,8 @@
 package edu.isu.cs.cs3308.structures;
 
 /**
- *
- * @author Isaac Griffith
  * @param <E> Element Type
+ * @author Isaac Griffith
  */
 public interface List<E> {
 
@@ -55,7 +54,7 @@ public interface List<E> {
      * the list.
      *
      * @param element Element to be added (as long as it is not null).
-     * @param index Index in the list where the element is to be inserted.
+     * @param index   Index in the list where the element is to be inserted.
      */
     void insert(E element, int index);
 
